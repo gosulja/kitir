@@ -40,6 +40,8 @@ Comparing: 'add' == 'add'
 result = 8
 ```
 
+### Note, the line `%result = add %x, %y` may be confusing, as the functions name is also `add` but it's calling the `add` instruction, not the function.
+
 # example
 
 ```cpp
