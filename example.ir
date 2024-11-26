@@ -1,0 +1,5 @@
+module example
+define add {
+    %result = add %x, %y
+    return %result
+}
