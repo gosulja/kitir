@@ -13,6 +13,25 @@ define add {
 }
 ```
 
+Output (debug)
+
+```
+Successfully serialized the module as /example.ir
+Successfully loaded module from /example.ir
+module example
+define add {
+    %result = add %x, %y
+    return %result
+}
+
+add defined
+Searching for function: add
+Available functions:
+- add
+Comparing: 'add' == 'add'
+result = 8
+```
+
 # example
 
 ```cpp
