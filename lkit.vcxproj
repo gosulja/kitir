@@ -24,7 +24,7 @@
     <ProjectGuid>{eda4e59f-7142-4867-ad03-cbd4749df9c7}</ProjectGuid>
     <RootNamespace>lkit</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>kitlr</ProjectName>
+    <ProjectName>kitir</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
