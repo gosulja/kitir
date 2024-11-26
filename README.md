@@ -13,6 +13,14 @@ define add {
 }
 ```
 
+Running the function with arguments.
+```cpp
+int result = IRInterpreter::run(ir_mod, "add", {
+		{"%x", 5},
+		{"%y", 3}
+});
+```
+
 Output (debug)
 
 ```
